@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Ian Batangan | Data Professional</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Ian Salig U. Batangan</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    <p>  </p>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/hey_thats_me.jpg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          As a data-driven generalist, I bridge the gap between 
+          complex datasets and actionable insights. My portfolio
+          showcases a blend of programming proficiency 
+          and a robust understanding of 
+          data analysis principles.  My background in 
+          mechanical engineering instilled a strong 
+          analytical mindset, which I now apply to 
+          diverse data challenges.  From developing 
+          machine learning models to building interactive 
+          dashboards, I'm passionate about uncovering hidden 
+          patterns and communicating data stories effectively. 
+          Explore my projects to see how I translate raw data into impactful solutions.
+        </p>
+      </div>
+    </section>
+
+     <!-- Skills section -->
+     <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/sql_logo.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/python_logo.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/matlab_logo.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        As a data-driven generalist, I thrive on transforming complex datasets into actionable insights. My portfolio showcases a versatile skillset, blending programming proficiency with a robust understanding of data analysis principles. My foundation in Mechanical Engineering from the University of the Philippines Diliman instilled a strong analytical mindset, a meticulous approach to problem-solving, and a deep appreciation for data's power to tell a story.  This engineering background provided a rigorous framework for approaching challenges, which I now apply to diverse data-related projects.
+      </p>
+      <p>
+        My passion for data extends beyond technical proficiency. I believe in the power of clear communication and effective visualization to translate complex findings into easily digestible narratives.  Whether developing machine learning models to predict SpaceX Falcon 9 landings or building interactive dashboards to analyze financial trends, I am driven by a desire to uncover hidden patterns and communicate data stories effectively.  I am proficient in Python, SQL, RStudio, and MATLAB, allowing me to manipulate, analyze, and visualize data from various sources. My projects demonstrate my ability to work with real-world data, from cleaning and preprocessing to building predictive models and creating impactful visualizations.  Explore my portfolio to see how I translate raw data into impactful solutions, contributing to data-driven decision-making and positive outcomes.  I am constantly seeking new opportunities to learn and grow in the ever-evolving field of data science, eager to tackle new challenges and contribute to innovative projects.
+      </p>
+      <p>
+        
+      </p>
+    </section>
+
+   
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/7.2 Dashboard Screenshot.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">SpaceX Falcon 9 First
+            Stage Landing Prediction</h3>
+          <p class="project-details">
+            Performed data collection via web
+            scraping and the SpaceX API, data
+            wrangling using Pandas and
+            NumPy, and visualization with
+            Seaborn and Matplotlib.
+          </p>
+          <a href="https://github.com/ISubamariner/IBM-Applied-Data-Science-Capstone" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/FlowChart1.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">QC Government L&D
+            Database</h3>
+          <p class="project-details">
+            Created a system using google
+            sheets and python to sort and
+            search the data for the Quezon
+            City Learning and Development
+            Program for the Human Resource
+            Department’s(HRMD) application
+            for CSC PRIME HR.
+          </p>
+          <a href="https://github.com/ISubamariner/QC-L-D-Database" target="_blank" class="project-link">Check it Out</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/Screenshot 2025-02-19 201515.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Analyzing the wildfire activities in Australia</h3>
+          <p class="project-details">
+            Exploration of patterns and trends, and create visualizations to gain insights into the behavior of wildfires in different regions of Australia. This project creates visualizations using Matplotlib, Seaborn, Pandas and Folium.
+          </p>
+          <a href="https://github.com/ISubamariner/Analyzing-the-wildfire-activities-in-Australia" target="_blank" class="project-link">Check it Out</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      
+      <a href="https://www.instagram.com/atlastian/" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/ianbatangan/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/ISubamariner" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built by Reverse Engineering Open Source File by
+        <a href="https://twitter.com/Ksound22" target="_blank"
+          >Kolade Chris (Ksound)</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
