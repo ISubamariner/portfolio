@@ -378,8 +378,15 @@ footer {
   }
 
   .hero img {
-    height: 37.5rem;
-    width: 30rem;
+    display: block;
+    max-width:28.11rem;
+    max-height:37.5rem;
+    width: auto;
+    height: auto;
+  
+    border-radius: 25px;
+    border: 300px ;
+    padding: 0px;
   }
 
   .bio {
@@ -420,8 +427,15 @@ footer {
 
 @media screen and (max-width: 420px) {
   .hero img {
-    height: 37.5rem;
-    width: 23rem;
+    display: block;
+    max-width:28.11rem;
+    max-height:37.5rem;
+    width: auto;
+    height: auto;
+    
+    border-radius: 25px;
+    border: 300px ;
+    padding: 0px;
   }
 
   .bio {
