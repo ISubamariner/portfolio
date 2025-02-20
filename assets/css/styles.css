@@ -375,7 +375,7 @@ footer {
   }
 
   .hero {
-    margin-top: 1rem;
+    margin-top: -4rem;
     flex-direction: column;
     gap: 0;
   }
