@@ -127,6 +127,7 @@ nav ul li {
 }
 
 .bio {
+  background-color: var(--bg-color);
   width: 25rem;
   padding: 0.625rem;
   border-radius: 6px;
